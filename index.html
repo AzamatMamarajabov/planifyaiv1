@@ -10,7 +10,7 @@
     <title>PlanifyAI Pro</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-      <link rel="manifest" href="https://progressier.app/G7CPHtd38wXtGoSuc4If/progressier.json"/><script defer src="https://progressier.app/G7CPHtd38wXtGoSuc4If/script.js"></script>
+    <link rel="manifest" href="https://progressier.app/G7CPHtd38wXtGoSuc4If/progressier.json"/><script defer src="https://progressier.app/G7CPHtd38wXtGoSuc4If/script.js"></script>
     <style>
       :root {
         --bg-primary: #020617;
@@ -19,12 +19,15 @@
         --accent-glow: rgba(99, 102, 241, 0.15);
       }
 
-      * {
+     * {
         -webkit-tap-highlight-color: transparent;
         box-sizing: border-box;
         outline: none !important;
         touch-action: manipulation; 
-        selection-bg: rgba(99, 102, 241, 0.3);
+      }
+
+      ::selection {
+        background: rgba(99, 102, 241, 0.3);
       }
 
       html {
@@ -157,10 +160,8 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+  </body>
 </html>
